@@ -1,0 +1,14 @@
+E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\bin\Debug\DawenShopmanager.exe.config
+E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\bin\Debug\DawenShopmanager.exe
+E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\bin\Debug\DawenShopmanager.pdb
+E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\bin\Debug\SunnyUI.Common.dll
+E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\bin\Debug\SunnyUI.dll
+E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopmanager.csproj.AssemblyReference.cache
+E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopmanager.Properties.Resources.resources
+E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopmanager.csproj.GenerateResource.cache
+E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopmanager.csproj.CoreCompileInputs.cache
+E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopmanager.csproj.CopyComplete
+E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopmanager.exe
+E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopmanager.pdb
+E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopmanager.Form_Main.resources
+E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopmanager.Form_Login.resources
