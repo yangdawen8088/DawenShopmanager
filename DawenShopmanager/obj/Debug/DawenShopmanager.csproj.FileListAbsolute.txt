@@ -12,3 +12,17 @@ E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopm
 E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopmanager.pdb
 E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopmanager.Form_Main.resources
 E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopmanager.Form_Login.resources
+D:\Demo\DawenShopmanager\DawenShopmanager\bin\Debug\DawenShopmanager.exe.config
+D:\Demo\DawenShopmanager\DawenShopmanager\bin\Debug\DawenShopmanager.exe
+D:\Demo\DawenShopmanager\DawenShopmanager\bin\Debug\DawenShopmanager.pdb
+D:\Demo\DawenShopmanager\DawenShopmanager\bin\Debug\SunnyUI.Common.dll
+D:\Demo\DawenShopmanager\DawenShopmanager\bin\Debug\SunnyUI.dll
+D:\Demo\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopmanager.Form_Login.resources
+D:\Demo\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopmanager.Form_Main.resources
+D:\Demo\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopmanager.Properties.Resources.resources
+D:\Demo\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopmanager.csproj.GenerateResource.cache
+D:\Demo\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopmanager.csproj.CoreCompileInputs.cache
+D:\Demo\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopmanager.csproj.CopyComplete
+D:\Demo\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopmanager.exe
+D:\Demo\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopmanager.pdb
+D:\Demo\DawenShopmanager\DawenShopmanager\obj\Debug\DawenShopmanager.csproj.AssemblyReference.cache

@@ -17,5 +17,21 @@ namespace DawenShopmanager
         {
             InitializeComponent();
         }
+
+        private void uiSymbolButton_Login_Click(object sender, EventArgs e)
+        {
+            ShowWarningTip("轻便消息提示框 - 警告");
+            //验证输入合法性....
+
+            //验证用户信息....
+
+            this.DialogResult = DialogResult.OK;
+        }
+
+        private void uiSymbolButton_Exit_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            Environment.Exit(0);
+        }
     }
 }
