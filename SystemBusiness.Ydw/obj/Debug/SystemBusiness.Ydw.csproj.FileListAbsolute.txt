@@ -1,0 +1,11 @@
+E:\我的学习资源\Net\DawenShopmanager\SystemBusiness.Ydw\bin\Debug\SystemBusiness.Ydw.dll
+E:\我的学习资源\Net\DawenShopmanager\SystemBusiness.Ydw\bin\Debug\SystemBusiness.Ydw.pdb
+E:\我的学习资源\Net\DawenShopmanager\SystemBusiness.Ydw\obj\Debug\SystemBusiness.Ydw.csproj.AssemblyReference.cache
+E:\我的学习资源\Net\DawenShopmanager\SystemBusiness.Ydw\obj\Debug\SystemBusiness.Ydw.csproj.CoreCompileInputs.cache
+E:\我的学习资源\Net\DawenShopmanager\SystemBusiness.Ydw\obj\Debug\SystemBusiness.Ydw.dll
+E:\我的学习资源\Net\DawenShopmanager\SystemBusiness.Ydw\obj\Debug\SystemBusiness.Ydw.pdb
+E:\我的学习资源\Net\DawenShopmanager\SystemBusiness.Ydw\bin\Debug\Basiclibrarycode.Ydw.dll
+E:\我的学习资源\Net\DawenShopmanager\SystemBusiness.Ydw\bin\Debug\ThoughtWorks.QRCode.dll
+E:\我的学习资源\Net\DawenShopmanager\SystemBusiness.Ydw\bin\Debug\BarcodeLib.dll
+E:\我的学习资源\Net\DawenShopmanager\SystemBusiness.Ydw\bin\Debug\Basiclibrarycode.Ydw.pdb
+E:\我的学习资源\Net\DawenShopmanager\SystemBusiness.Ydw\obj\Debug\SystemBusiness.Ydw.csproj.CopyComplete

@@ -1,0 +1,7 @@
+E:\开发实践项目\NET\Mymanagementsystem1-8\Mymanagementsystem\Basiclibrarycode.Ydw\bin\Release\Basiclibrarycode.Ydw.dll
+E:\开发实践项目\NET\Mymanagementsystem1-8\Mymanagementsystem\Basiclibrarycode.Ydw\bin\Release\Basiclibrarycode.Ydw.pdb
+E:\开发实践项目\NET\Mymanagementsystem1-8\Mymanagementsystem\Basiclibrarycode.Ydw\bin\Release\BarcodeLib.dll
+E:\开发实践项目\NET\Mymanagementsystem1-8\Mymanagementsystem\Basiclibrarycode.Ydw\bin\Release\ThoughtWorks.QRCode.dll
+E:\开发实践项目\NET\Mymanagementsystem1-8\Mymanagementsystem\Basiclibrarycode.Ydw\obj\Release\Basiclibrarycode.Ydw.csprojResolveAssemblyReference.cache
+E:\开发实践项目\NET\Mymanagementsystem1-8\Mymanagementsystem\Basiclibrarycode.Ydw\obj\Release\Basiclibrarycode.Ydw.dll
+E:\开发实践项目\NET\Mymanagementsystem1-8\Mymanagementsystem\Basiclibrarycode.Ydw\obj\Release\Basiclibrarycode.Ydw.pdb

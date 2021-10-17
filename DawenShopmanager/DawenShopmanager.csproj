@@ -40,6 +40,7 @@
       <HintPath>..\packages\SunnyUI.Common.3.0.8\lib\net472\SunnyUI.Common.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
     <Reference Include="System.Web.Extensions" />
@@ -100,6 +101,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\LoginBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Basiclibrarycode.Ydw\Basiclibrarycode.Ydw.csproj">
+      <Project>{F7B0B217-6251-4EFF-A178-BB73FBE089C9}</Project>
+      <Name>Basiclibrarycode.Ydw</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SystemBusiness.Ydw\SystemBusiness.Ydw.csproj">
+      <Project>{386d5c2f-993a-457a-b67d-7f91ab2a3705}</Project>
+      <Name>SystemBusiness.Ydw</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

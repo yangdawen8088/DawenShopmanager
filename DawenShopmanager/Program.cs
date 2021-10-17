@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SystemBusiness.Ydw.Login;
 
 namespace DawenShopmanager
 {
@@ -21,9 +24,9 @@ namespace DawenShopmanager
 
             //首先载入登录窗体实例
             Form_Login frmLogin = new Form_Login();
-            DialogResult loginResult = frmLogin.ShowDialog();
+            ILogin login = new LoginAccomplish();
             //若登录成功则加载主窗体
-            if (loginResult == DialogResult.OK)
+            if (login.AutoLogin() || frmLogin.ShowDialog() == DialogResult.OK)
             {
                 Application.Run(new Form_Main());
             }

@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DawenShopmanager", "DawenShopmanager\DawenShopmanager.csproj", "{322D42AA-06FE-4AE2-9D22-8B8E9127CCB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basiclibrarycode.Ydw", "Basiclibrarycode.Ydw\Basiclibrarycode.Ydw.csproj", "{F7B0B217-6251-4EFF-A178-BB73FBE089C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemBusiness.Ydw", "SystemBusiness.Ydw\SystemBusiness.Ydw.csproj", "{386D5C2F-993A-457A-B67D-7F91AB2A3705}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{322D42AA-06FE-4AE2-9D22-8B8E9127CCB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{322D42AA-06FE-4AE2-9D22-8B8E9127CCB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{322D42AA-06FE-4AE2-9D22-8B8E9127CCB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B0B217-6251-4EFF-A178-BB73FBE089C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B0B217-6251-4EFF-A178-BB73FBE089C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B0B217-6251-4EFF-A178-BB73FBE089C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B0B217-6251-4EFF-A178-BB73FBE089C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{386D5C2F-993A-457A-B67D-7F91AB2A3705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{386D5C2F-993A-457A-B67D-7F91AB2A3705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{386D5C2F-993A-457A-B67D-7F91AB2A3705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{386D5C2F-993A-457A-B67D-7F91AB2A3705}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

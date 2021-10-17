@@ -30,43 +30,50 @@ namespace DawenShopmanager
         private void InitializeComponent()
         {
             this.uiLabel1 = new Sunny.UI.UILabel();
-            this.uiTextBox1 = new Sunny.UI.UITextBox();
+            this.uiTextBox_LoginAccount = new Sunny.UI.UITextBox();
             this.uiLabel2 = new Sunny.UI.UILabel();
             this.uiLabel3 = new Sunny.UI.UILabel();
-            this.uiTextBox2 = new Sunny.UI.UITextBox();
+            this.uiTextBox_LoginPassword = new Sunny.UI.UITextBox();
             this.uiSymbolButton_Login = new Sunny.UI.UISymbolButton();
             this.uiSymbolButton_Exit = new Sunny.UI.UISymbolButton();
+            this.uiCheckBox_AutoLogin = new Sunny.UI.UICheckBox();
             this.SuspendLayout();
             // 
             // uiLabel1
             // 
+            this.uiLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.uiLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.uiLabel1.Font = new System.Drawing.Font("微软雅黑", 25F, System.Drawing.FontStyle.Bold);
+            this.uiLabel1.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold);
             this.uiLabel1.Location = new System.Drawing.Point(113, 79);
             this.uiLabel1.Name = "uiLabel1";
             this.uiLabel1.Size = new System.Drawing.Size(525, 63);
+            this.uiLabel1.Style = Sunny.UI.UIStyle.Custom;
             this.uiLabel1.TabIndex = 0;
             this.uiLabel1.Text = "Dawen 实体店面收银系统";
             this.uiLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // uiTextBox1
+            // uiTextBox_LoginAccount
             // 
-            this.uiTextBox1.BackColor = System.Drawing.Color.Transparent;
-            this.uiTextBox1.ButtonSymbol = 61761;
-            this.uiTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.uiTextBox1.FillColor = System.Drawing.Color.White;
-            this.uiTextBox1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.uiTextBox1.Location = new System.Drawing.Point(305, 202);
-            this.uiTextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.uiTextBox1.Maximum = 2147483647D;
-            this.uiTextBox1.Minimum = -2147483648D;
-            this.uiTextBox1.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiTextBox1.Name = "uiTextBox1";
-            this.uiTextBox1.Size = new System.Drawing.Size(215, 29);
-            this.uiTextBox1.Style = Sunny.UI.UIStyle.Custom;
-            this.uiTextBox1.TabIndex = 1;
-            this.uiTextBox1.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.uiTextBox1.Watermark = "请输入账号";
+            this.uiTextBox_LoginAccount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.uiTextBox_LoginAccount.BackColor = System.Drawing.Color.Transparent;
+            this.uiTextBox_LoginAccount.ButtonSymbol = 61761;
+            this.uiTextBox_LoginAccount.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.uiTextBox_LoginAccount.FillColor = System.Drawing.Color.White;
+            this.uiTextBox_LoginAccount.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiTextBox_LoginAccount.Location = new System.Drawing.Point(305, 202);
+            this.uiTextBox_LoginAccount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.uiTextBox_LoginAccount.Maximum = 2147483647D;
+            this.uiTextBox_LoginAccount.Minimum = -2147483648D;
+            this.uiTextBox_LoginAccount.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiTextBox_LoginAccount.Name = "uiTextBox_LoginAccount";
+            this.uiTextBox_LoginAccount.Size = new System.Drawing.Size(215, 29);
+            this.uiTextBox_LoginAccount.Style = Sunny.UI.UIStyle.Custom;
+            this.uiTextBox_LoginAccount.TabIndex = 1;
+            this.uiTextBox_LoginAccount.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.uiTextBox_LoginAccount.Watermark = "请输入账号";
+            this.uiTextBox_LoginAccount.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.uiTextBox_LoginAccount_KeyPress);
             // 
             // uiLabel2
             // 
@@ -75,6 +82,7 @@ namespace DawenShopmanager
             this.uiLabel2.Location = new System.Drawing.Point(230, 205);
             this.uiLabel2.Name = "uiLabel2";
             this.uiLabel2.Size = new System.Drawing.Size(68, 23);
+            this.uiLabel2.Style = Sunny.UI.UIStyle.Custom;
             this.uiLabel2.TabIndex = 2;
             this.uiLabel2.Text = "账  户：";
             this.uiLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -86,38 +94,43 @@ namespace DawenShopmanager
             this.uiLabel3.Location = new System.Drawing.Point(230, 246);
             this.uiLabel3.Name = "uiLabel3";
             this.uiLabel3.Size = new System.Drawing.Size(68, 23);
+            this.uiLabel3.Style = Sunny.UI.UIStyle.Custom;
             this.uiLabel3.TabIndex = 4;
             this.uiLabel3.Text = "密  码：";
             this.uiLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // uiTextBox2
+            // uiTextBox_LoginPassword
             // 
-            this.uiTextBox2.BackColor = System.Drawing.Color.Transparent;
-            this.uiTextBox2.ButtonSymbol = 61761;
-            this.uiTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.uiTextBox2.FillColor = System.Drawing.Color.White;
-            this.uiTextBox2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.uiTextBox2.Location = new System.Drawing.Point(305, 243);
-            this.uiTextBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.uiTextBox2.Maximum = 2147483647D;
-            this.uiTextBox2.Minimum = -2147483648D;
-            this.uiTextBox2.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiTextBox2.Name = "uiTextBox2";
-            this.uiTextBox2.PasswordChar = '*';
-            this.uiTextBox2.Size = new System.Drawing.Size(215, 29);
-            this.uiTextBox2.Style = Sunny.UI.UIStyle.Custom;
-            this.uiTextBox2.TabIndex = 3;
-            this.uiTextBox2.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.uiTextBox2.Watermark = "请输入密码";
+            this.uiTextBox_LoginPassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.uiTextBox_LoginPassword.BackColor = System.Drawing.Color.Transparent;
+            this.uiTextBox_LoginPassword.ButtonSymbol = 61761;
+            this.uiTextBox_LoginPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.uiTextBox_LoginPassword.FillColor = System.Drawing.Color.White;
+            this.uiTextBox_LoginPassword.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiTextBox_LoginPassword.Location = new System.Drawing.Point(305, 243);
+            this.uiTextBox_LoginPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.uiTextBox_LoginPassword.Maximum = 2147483647D;
+            this.uiTextBox_LoginPassword.Minimum = -2147483648D;
+            this.uiTextBox_LoginPassword.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiTextBox_LoginPassword.Name = "uiTextBox_LoginPassword";
+            this.uiTextBox_LoginPassword.PasswordChar = '*';
+            this.uiTextBox_LoginPassword.Size = new System.Drawing.Size(215, 29);
+            this.uiTextBox_LoginPassword.Style = Sunny.UI.UIStyle.Custom;
+            this.uiTextBox_LoginPassword.TabIndex = 3;
+            this.uiTextBox_LoginPassword.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.uiTextBox_LoginPassword.Watermark = "请输入密码";
             // 
             // uiSymbolButton_Login
             // 
+            this.uiSymbolButton_Login.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.uiSymbolButton_Login.BackColor = System.Drawing.Color.Transparent;
             this.uiSymbolButton_Login.Cursor = System.Windows.Forms.Cursors.Hand;
             this.uiSymbolButton_Login.FillColor = System.Drawing.Color.Transparent;
             this.uiSymbolButton_Login.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.uiSymbolButton_Login.ForeSelectedColor = System.Drawing.Color.Empty;
-            this.uiSymbolButton_Login.Location = new System.Drawing.Point(254, 299);
+            this.uiSymbolButton_Login.Location = new System.Drawing.Point(254, 319);
             this.uiSymbolButton_Login.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolButton_Login.Name = "uiSymbolButton_Login";
             this.uiSymbolButton_Login.Radius = 10;
@@ -131,6 +144,8 @@ namespace DawenShopmanager
             // 
             // uiSymbolButton_Exit
             // 
+            this.uiSymbolButton_Exit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.uiSymbolButton_Exit.BackColor = System.Drawing.Color.Transparent;
             this.uiSymbolButton_Exit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.uiSymbolButton_Exit.FillColor = System.Drawing.Color.Transparent;
@@ -138,7 +153,7 @@ namespace DawenShopmanager
             this.uiSymbolButton_Exit.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
             this.uiSymbolButton_Exit.FillSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
             this.uiSymbolButton_Exit.Font = new System.Drawing.Font("微软雅黑", 12F);
-            this.uiSymbolButton_Exit.Location = new System.Drawing.Point(397, 299);
+            this.uiSymbolButton_Exit.Location = new System.Drawing.Point(397, 319);
             this.uiSymbolButton_Exit.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolButton_Exit.Name = "uiSymbolButton_Exit";
             this.uiSymbolButton_Exit.Radius = 10;
@@ -154,6 +169,21 @@ namespace DawenShopmanager
             this.uiSymbolButton_Exit.Text = "退  出";
             this.uiSymbolButton_Exit.Click += new System.EventHandler(this.uiSymbolButton_Exit_Click);
             // 
+            // uiCheckBox_AutoLogin
+            // 
+            this.uiCheckBox_AutoLogin.BackColor = System.Drawing.Color.Transparent;
+            this.uiCheckBox_AutoLogin.CheckBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(52)))), ((int)(((byte)(69)))));
+            this.uiCheckBox_AutoLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiCheckBox_AutoLogin.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiCheckBox_AutoLogin.Location = new System.Drawing.Point(391, 278);
+            this.uiCheckBox_AutoLogin.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiCheckBox_AutoLogin.Name = "uiCheckBox_AutoLogin";
+            this.uiCheckBox_AutoLogin.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
+            this.uiCheckBox_AutoLogin.Size = new System.Drawing.Size(129, 29);
+            this.uiCheckBox_AutoLogin.Style = Sunny.UI.UIStyle.Custom;
+            this.uiCheckBox_AutoLogin.TabIndex = 82;
+            this.uiCheckBox_AutoLogin.Text = "下次自动登录";
+            // 
             // Form_Login
             // 
             this.AllowShowTitle = false;
@@ -162,12 +192,13 @@ namespace DawenShopmanager
             this.BackgroundImage = global::DawenShopmanager.Properties.Resources.LoginBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(750, 450);
+            this.Controls.Add(this.uiCheckBox_AutoLogin);
             this.Controls.Add(this.uiSymbolButton_Exit);
             this.Controls.Add(this.uiSymbolButton_Login);
             this.Controls.Add(this.uiLabel3);
-            this.Controls.Add(this.uiTextBox2);
+            this.Controls.Add(this.uiTextBox_LoginPassword);
             this.Controls.Add(this.uiLabel2);
-            this.Controls.Add(this.uiTextBox1);
+            this.Controls.Add(this.uiTextBox_LoginAccount);
             this.Controls.Add(this.uiLabel1);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(750, 450);
@@ -176,11 +207,16 @@ namespace DawenShopmanager
             this.Movable = false;
             this.Name = "Form_Login";
             this.Padding = new System.Windows.Forms.Padding(0);
+            this.RectColor = System.Drawing.Color.Transparent;
             this.ShowRadius = false;
+            this.ShowRect = false;
             this.ShowShadow = true;
             this.ShowTitle = false;
+            this.Style = Sunny.UI.UIStyle.Custom;
             this.Text = "用户登录";
             this.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.TitleColor = System.Drawing.Color.Transparent;
+            this.TopMost = true;
             this.ResumeLayout(false);
 
         }
@@ -188,11 +224,12 @@ namespace DawenShopmanager
         #endregion
 
         private Sunny.UI.UILabel uiLabel1;
-        private Sunny.UI.UITextBox uiTextBox1;
+        private Sunny.UI.UITextBox uiTextBox_LoginAccount;
         private Sunny.UI.UILabel uiLabel2;
         private Sunny.UI.UILabel uiLabel3;
-        private Sunny.UI.UITextBox uiTextBox2;
+        private Sunny.UI.UITextBox uiTextBox_LoginPassword;
         private Sunny.UI.UISymbolButton uiSymbolButton_Login;
         private Sunny.UI.UISymbolButton uiSymbolButton_Exit;
+        private Sunny.UI.UICheckBox uiCheckBox_AutoLogin;
     }
 }
