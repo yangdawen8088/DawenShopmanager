@@ -32,3 +32,9 @@ E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\bin\Debug\Basiclibra
 E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\bin\Debug\ThoughtWorks.QRCode.dll
 E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\bin\Debug\BarcodeLib.dll
 E:\我的学习资源\Net\DawenShopmanager\DawenShopmanager\bin\Debug\Basiclibrarycode.Ydw.pdb
+D:\Demo\DawenShopmanager\DawenShopmanager\bin\Debug\Basiclibrarycode.Ydw.dll
+D:\Demo\DawenShopmanager\DawenShopmanager\bin\Debug\SystemBusiness.Ydw.dll
+D:\Demo\DawenShopmanager\DawenShopmanager\bin\Debug\ThoughtWorks.QRCode.dll
+D:\Demo\DawenShopmanager\DawenShopmanager\bin\Debug\BarcodeLib.dll
+D:\Demo\DawenShopmanager\DawenShopmanager\bin\Debug\Basiclibrarycode.Ydw.pdb
+D:\Demo\DawenShopmanager\DawenShopmanager\bin\Debug\SystemBusiness.Ydw.pdb

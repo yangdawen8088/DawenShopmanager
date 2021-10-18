@@ -172,7 +172,6 @@ namespace DawenShopmanager
             // uiCheckBox_AutoLogin
             // 
             this.uiCheckBox_AutoLogin.BackColor = System.Drawing.Color.Transparent;
-            this.uiCheckBox_AutoLogin.CheckBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(52)))), ((int)(((byte)(69)))));
             this.uiCheckBox_AutoLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.uiCheckBox_AutoLogin.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.uiCheckBox_AutoLogin.Location = new System.Drawing.Point(391, 278);

@@ -9,3 +9,14 @@ E:\我的学习资源\Net\DawenShopmanager\SystemBusiness.Ydw\bin\Debug\ThoughtW
 E:\我的学习资源\Net\DawenShopmanager\SystemBusiness.Ydw\bin\Debug\BarcodeLib.dll
 E:\我的学习资源\Net\DawenShopmanager\SystemBusiness.Ydw\bin\Debug\Basiclibrarycode.Ydw.pdb
 E:\我的学习资源\Net\DawenShopmanager\SystemBusiness.Ydw\obj\Debug\SystemBusiness.Ydw.csproj.CopyComplete
+D:\Demo\DawenShopmanager\SystemBusiness.Ydw\bin\Debug\SystemBusiness.Ydw.dll
+D:\Demo\DawenShopmanager\SystemBusiness.Ydw\bin\Debug\SystemBusiness.Ydw.pdb
+D:\Demo\DawenShopmanager\SystemBusiness.Ydw\bin\Debug\Basiclibrarycode.Ydw.dll
+D:\Demo\DawenShopmanager\SystemBusiness.Ydw\bin\Debug\ThoughtWorks.QRCode.dll
+D:\Demo\DawenShopmanager\SystemBusiness.Ydw\bin\Debug\BarcodeLib.dll
+D:\Demo\DawenShopmanager\SystemBusiness.Ydw\bin\Debug\Basiclibrarycode.Ydw.pdb
+D:\Demo\DawenShopmanager\SystemBusiness.Ydw\obj\Debug\SystemBusiness.Ydw.csproj.AssemblyReference.cache
+D:\Demo\DawenShopmanager\SystemBusiness.Ydw\obj\Debug\SystemBusiness.Ydw.csproj.CoreCompileInputs.cache
+D:\Demo\DawenShopmanager\SystemBusiness.Ydw\obj\Debug\SystemBusiness.Ydw.csproj.CopyComplete
+D:\Demo\DawenShopmanager\SystemBusiness.Ydw\obj\Debug\SystemBusiness.Ydw.dll
+D:\Demo\DawenShopmanager\SystemBusiness.Ydw\obj\Debug\SystemBusiness.Ydw.pdb

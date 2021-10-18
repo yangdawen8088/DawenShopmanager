@@ -69,3 +69,12 @@ E:\我的学习资源\Net\DawenShopmanager\Basiclibrarycode.Ydw\obj\Debug\Basicl
 E:\我的学习资源\Net\DawenShopmanager\Basiclibrarycode.Ydw\obj\Debug\Basiclibrarycode.Ydw.csproj.CopyComplete
 E:\我的学习资源\Net\DawenShopmanager\Basiclibrarycode.Ydw\obj\Debug\Basiclibrarycode.Ydw.dll
 E:\我的学习资源\Net\DawenShopmanager\Basiclibrarycode.Ydw\obj\Debug\Basiclibrarycode.Ydw.pdb
+D:\Demo\DawenShopmanager\Basiclibrarycode.Ydw\bin\Debug\Basiclibrarycode.Ydw.dll
+D:\Demo\DawenShopmanager\Basiclibrarycode.Ydw\bin\Debug\Basiclibrarycode.Ydw.pdb
+D:\Demo\DawenShopmanager\Basiclibrarycode.Ydw\bin\Debug\BarcodeLib.dll
+D:\Demo\DawenShopmanager\Basiclibrarycode.Ydw\bin\Debug\ThoughtWorks.QRCode.dll
+D:\Demo\DawenShopmanager\Basiclibrarycode.Ydw\obj\Debug\Basiclibrarycode.Ydw.csproj.AssemblyReference.cache
+D:\Demo\DawenShopmanager\Basiclibrarycode.Ydw\obj\Debug\Basiclibrarycode.Ydw.csproj.CoreCompileInputs.cache
+D:\Demo\DawenShopmanager\Basiclibrarycode.Ydw\obj\Debug\Basiclibrarycode.Ydw.csproj.CopyComplete
+D:\Demo\DawenShopmanager\Basiclibrarycode.Ydw\obj\Debug\Basiclibrarycode.Ydw.dll
+D:\Demo\DawenShopmanager\Basiclibrarycode.Ydw\obj\Debug\Basiclibrarycode.Ydw.pdb
