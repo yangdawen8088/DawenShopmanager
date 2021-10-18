@@ -26,11 +26,26 @@ namespace DawenShopmanager
 
         private void 退出登录ToolStripMenuItem_MouseUp(object sender, MouseEventArgs e)
         {
-            if (e.Button == MouseButtons.Left)
+            if (e.Button != MouseButtons.Left) return;
+            ILogin login = new LoginAccomplish();
+            login.SignOut();
+            Application.Restart();//退出登录
+        }
+
+        private void 窗口置顶ToolStripMenuItem_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button != MouseButtons.Left) return;
+            if (窗口置顶ToolStripMenuItem.Text.Equals("窗口置顶"))
             {
-                ILogin login = new LoginAccomplish();
-                login.SignOut();
-                Application.Restart();//退出登录
+                this.TopMost = true;
+                窗口置顶ToolStripMenuItem.Text = "取消置顶";
+                窗口置顶ToolStripMenuItem.Image = Properties.Resources.top;
+            }
+            else
+            {
+                this.TopMost = false;
+                窗口置顶ToolStripMenuItem.Text = "窗口置顶";
+                窗口置顶ToolStripMenuItem.Image = Properties.Resources.nottop;
             }
         }
     }

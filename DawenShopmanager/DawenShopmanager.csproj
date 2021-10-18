@@ -100,8 +100,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\top.png" />
+    <None Include="Resources\nottop.png" />
+    <None Include="Resources\LOGO.png" />
     <None Include="Resources\show.png" />
     <None Include="Resources\hide.png" />
+    <None Include="Resources\LOG-2.png" />
     <Content Include="Resources\LoginBG.png" />
   </ItemGroup>
   <ItemGroup>
