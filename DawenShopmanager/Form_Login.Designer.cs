@@ -29,7 +29,7 @@ namespace DawenShopmanager
         /// </summary>
         private void InitializeComponent()
         {
-            this.uiLabel1 = new Sunny.UI.UILabel();
+            this.uiLabel_SystemTitle = new Sunny.UI.UILabel();
             this.uiTextBox_LoginAccount = new Sunny.UI.UITextBox();
             this.uiLabel2 = new Sunny.UI.UILabel();
             this.uiLabel3 = new Sunny.UI.UILabel();
@@ -39,19 +39,19 @@ namespace DawenShopmanager
             this.uiCheckBox_AutoLogin = new Sunny.UI.UICheckBox();
             this.SuspendLayout();
             // 
-            // uiLabel1
+            // uiLabel_SystemTitle
             // 
-            this.uiLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.uiLabel_SystemTitle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.uiLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.uiLabel1.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold);
-            this.uiLabel1.Location = new System.Drawing.Point(113, 79);
-            this.uiLabel1.Name = "uiLabel1";
-            this.uiLabel1.Size = new System.Drawing.Size(525, 63);
-            this.uiLabel1.Style = Sunny.UI.UIStyle.Custom;
-            this.uiLabel1.TabIndex = 0;
-            this.uiLabel1.Text = "Dawen 实体店面收银系统";
-            this.uiLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.uiLabel_SystemTitle.BackColor = System.Drawing.Color.Transparent;
+            this.uiLabel_SystemTitle.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold);
+            this.uiLabel_SystemTitle.Location = new System.Drawing.Point(113, 79);
+            this.uiLabel_SystemTitle.Name = "uiLabel_SystemTitle";
+            this.uiLabel_SystemTitle.Size = new System.Drawing.Size(525, 63);
+            this.uiLabel_SystemTitle.Style = Sunny.UI.UIStyle.Custom;
+            this.uiLabel_SystemTitle.TabIndex = 0;
+            this.uiLabel_SystemTitle.Text = "系统名称";
+            this.uiLabel_SystemTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // uiTextBox_LoginAccount
             // 
@@ -104,7 +104,8 @@ namespace DawenShopmanager
             this.uiTextBox_LoginPassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.uiTextBox_LoginPassword.BackColor = System.Drawing.Color.Transparent;
-            this.uiTextBox_LoginPassword.ButtonSymbol = 61761;
+            this.uiTextBox_LoginPassword.ButtonSymbol = 361552;
+            this.uiTextBox_LoginPassword.ButtonSymbolOffset = new System.Drawing.Point(0, 2);
             this.uiTextBox_LoginPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.uiTextBox_LoginPassword.FillColor = System.Drawing.Color.White;
             this.uiTextBox_LoginPassword.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -198,7 +199,7 @@ namespace DawenShopmanager
             this.Controls.Add(this.uiTextBox_LoginPassword);
             this.Controls.Add(this.uiLabel2);
             this.Controls.Add(this.uiTextBox_LoginAccount);
-            this.Controls.Add(this.uiLabel1);
+            this.Controls.Add(this.uiLabel_SystemTitle);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(750, 450);
             this.MinimizeBox = false;
@@ -222,7 +223,7 @@ namespace DawenShopmanager
 
         #endregion
 
-        private Sunny.UI.UILabel uiLabel1;
+        private Sunny.UI.UILabel uiLabel_SystemTitle;
         private Sunny.UI.UITextBox uiTextBox_LoginAccount;
         private Sunny.UI.UILabel uiLabel2;
         private Sunny.UI.UILabel uiLabel3;

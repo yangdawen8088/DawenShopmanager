@@ -43,7 +43,7 @@ namespace SystemBusiness.Ydw.Login
             {
                 return false;
             }
-            string autoLoginToken = publicUtility.DESDecrypt(xMLHelp.getValue("AutoLogin"), ConfigurationManager.AppSettings["aeskey"]);
+            string autoLoginToken = publicUtility.DESDecrypt(xMLHelp.getValue("AutoLogin"), ConfigurationManager.AppSettings["systemdata"]);
             string[] tokenValue = autoLoginToken.Split('|');
             SqlExec sqlExec = new SqlExec();
             string where = "AND (LoginAccount=@LoginAccount AND LoginPassword=@LoginPassword)";
@@ -63,7 +63,7 @@ namespace SystemBusiness.Ydw.Login
             }
             string userID = publicUtility.DESEncrypt(
                    dataTable.Rows[0]["ID"].ToString() + "|" + DateTime.Now.ToFileTime().ToString(),
-                   ConfigurationManager.AppSettings["aeskey"]);
+                   ConfigurationManager.AppSettings["systemdata"]);
             if (xMLHelp.isXMLKeyNull("UserID"))
             {
                 xMLHelp.editXMLKsyForKey("UserID", userID);
@@ -129,11 +129,11 @@ namespace SystemBusiness.Ydw.Login
                     "|" + dataTable.Rows[0]["LoginPassword"] +
                     "|" + DateTime.Now.ToLocalTime().ToString() +
                     "|" + publicUtility.GetCPUUID();
-                autoLoginToken = publicUtility.DESEncrypt(autoLoginToken, ConfigurationManager.AppSettings["aeskey"]);
+                autoLoginToken = publicUtility.DESEncrypt(autoLoginToken, ConfigurationManager.AppSettings["systemdata"]);
                 XMLHelp xMLHelp = new XMLHelp();
                 string userID = publicUtility.DESEncrypt(
                     dataTable.Rows[0]["ID"].ToString() + "|" + DateTime.Now.ToFileTime().ToString(),
-                    ConfigurationManager.AppSettings["aeskey"]);
+                    ConfigurationManager.AppSettings["systemdata"]);
                 if (xMLHelp.isXMLKeyNull("UserID"))
                 {
                     xMLHelp.editXMLKsyForKey("UserID", userID);

@@ -14,7 +14,7 @@ namespace Basiclibrarycode.Ydw
         #region 数据库的执行操作：增、删、查、改
         static string ConnectionString = publicUtility.DESDecrypt(
             ConfigurationManager.AppSettings["MSQLConnectionString"],
-            ConfigurationManager.AppSettings["aeskey"]);
+            ConfigurationManager.AppSettings["systemdata"]);
         /// <summary>
         /// 增、删、改：执行sql数据库，传入SQL语句，返回数据库受影响行数
         /// </summary>

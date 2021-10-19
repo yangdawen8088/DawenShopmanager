@@ -1,7 +1,9 @@
-﻿using Sunny.UI;
+﻿using Basiclibrarycode.Ydw;
+using Sunny.UI;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Drawing;
 using System.Linq;
@@ -18,6 +20,7 @@ namespace DawenShopmanager
         public Form_Login()
         {
             InitializeComponent();
+            uiLabel_SystemTitle.Text = publicUtility.DESDecrypt(ConfigurationManager.AppSettings["systemName"], ConfigurationManager.AppSettings["systemdata"]);
         }
 
         private void uiSymbolButton_Login_Click(object sender, EventArgs e)
