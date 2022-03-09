@@ -65,30 +65,58 @@ namespace DawenShopmanager
         {
             uiPanel_UserInfo.FillColor = Color.Transparent;
         }
-
+        /// <summary>
+        /// 主页点击事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void uiHeaderButton_HomePage_Click(object sender, EventArgs e)
         {
             ChangePage(((dynamic)sender).Name);
         }
-
+        TreeNode treeNode = new TreeNode();
+        /// <summary>
+        /// 进销存点击事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void uiHeaderButton_Invoicing_Click(object sender, EventArgs e)
         {
+            int pageIndex = 1000;
+            treeNode = Aside.CreateNode("控件", 61451, 24, pageIndex);
+            Aside.CreateChildNode(treeNode, "测试"+DateTime.Now.ToString(), ++pageIndex);
+            //treeNode = Aside.CreateNode("控制台", 61451, pageIndex);
+            //treeNode = Aside.CreateNode("首页", 61452, (pageIndex+1));
             ChangePage(((dynamic)sender).Name);
 
         }
-
+        /// <summary>
+        /// 会员管理点击事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void uiHeaderButton_member_Click(object sender, EventArgs e)
         {
+            treeNode.Remove();
             ChangePage(((dynamic)sender).Name);
 
         }
-
+        /// <summary>
+        /// 系统 OA 点击事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void uiHeaderButton_OA_Click(object sender, EventArgs e)
         {
+            treeNode.Nodes.Clear();
             ChangePage(((dynamic)sender).Name);
 
         }
-
+        /// <summary>
+        /// 数据报表点击事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void uiHeaderButton_Report_Click(object sender, EventArgs e)
         {
             ChangePage(((dynamic)sender).Name);

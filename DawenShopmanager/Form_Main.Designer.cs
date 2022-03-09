@@ -30,21 +30,21 @@ namespace DawenShopmanager
         private void InitializeComponent()
         {
             this.uiContextMenuStrip_Extend = new Sunny.UI.UIContextMenuStrip();
+            this.窗口置顶ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.退出登录ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.关于ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.系统设置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.意见反馈ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.uiPanel_UserInfo = new Sunny.UI.UIPanel();
             this.uiLabel_LoginDate = new Sunny.UI.UILabel();
             this.uiLabel_UserName = new Sunny.UI.UILabel();
+            this.uiAvatar_UserAvatar = new Sunny.UI.UIAvatar();
             this.uiHeaderButton_Report = new Sunny.UI.UIHeaderButton();
             this.uiHeaderButton_member = new Sunny.UI.UIHeaderButton();
             this.uiHeaderButton_Invoicing = new Sunny.UI.UIHeaderButton();
             this.uiHeaderButton_HomePage = new Sunny.UI.UIHeaderButton();
             this.uiHeaderButton_OA = new Sunny.UI.UIHeaderButton();
-            this.uiAvatar_UserAvatar = new Sunny.UI.UIAvatar();
-            this.意见反馈ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.窗口置顶ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.关于ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.退出登录ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.系统设置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Header.SuspendLayout();
             this.uiContextMenuStrip_Extend.SuspendLayout();
@@ -57,6 +57,7 @@ namespace DawenShopmanager
             this.Footer.Location = new System.Drawing.Point(252, 662);
             this.Footer.Size = new System.Drawing.Size(770, 56);
             this.Footer.Style = Sunny.UI.UIStyle.Custom;
+            this.Footer.Visible = false;
             // 
             // Aside
             // 
@@ -93,6 +94,50 @@ namespace DawenShopmanager
             this.意见反馈ToolStripMenuItem});
             this.uiContextMenuStrip_Extend.Name = "uiContextMenuStrip_Extend";
             this.uiContextMenuStrip_Extend.Size = new System.Drawing.Size(145, 160);
+            // 
+            // 窗口置顶ToolStripMenuItem
+            // 
+            this.窗口置顶ToolStripMenuItem.Image = global::DawenShopmanager.Properties.Resources.nottop;
+            this.窗口置顶ToolStripMenuItem.Name = "窗口置顶ToolStripMenuItem";
+            this.窗口置顶ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
+            this.窗口置顶ToolStripMenuItem.Text = "窗口置顶";
+            this.窗口置顶ToolStripMenuItem.MouseUp += new System.Windows.Forms.MouseEventHandler(this.窗口置顶ToolStripMenuItem_MouseUp);
+            // 
+            // 退出登录ToolStripMenuItem
+            // 
+            this.退出登录ToolStripMenuItem.Image = global::DawenShopmanager.Properties.Resources.signout;
+            this.退出登录ToolStripMenuItem.Name = "退出登录ToolStripMenuItem";
+            this.退出登录ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
+            this.退出登录ToolStripMenuItem.Text = "退出登录";
+            this.退出登录ToolStripMenuItem.MouseUp += new System.Windows.Forms.MouseEventHandler(this.退出登录ToolStripMenuItem_MouseUp);
+            // 
+            // 帮助ToolStripMenuItem
+            // 
+            this.帮助ToolStripMenuItem.Image = global::DawenShopmanager.Properties.Resources.Help;
+            this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
+            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
+            this.帮助ToolStripMenuItem.Text = "帮助";
+            // 
+            // 关于ToolStripMenuItem
+            // 
+            this.关于ToolStripMenuItem.Image = global::DawenShopmanager.Properties.Resources.about;
+            this.关于ToolStripMenuItem.Name = "关于ToolStripMenuItem";
+            this.关于ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
+            this.关于ToolStripMenuItem.Text = "关于";
+            // 
+            // 系统设置ToolStripMenuItem
+            // 
+            this.系统设置ToolStripMenuItem.Image = global::DawenShopmanager.Properties.Resources.set;
+            this.系统设置ToolStripMenuItem.Name = "系统设置ToolStripMenuItem";
+            this.系统设置ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
+            this.系统设置ToolStripMenuItem.Text = "系统设置";
+            // 
+            // 意见反馈ToolStripMenuItem
+            // 
+            this.意见反馈ToolStripMenuItem.Image = global::DawenShopmanager.Properties.Resources.Feedback;
+            this.意见反馈ToolStripMenuItem.Name = "意见反馈ToolStripMenuItem";
+            this.意见反馈ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
+            this.意见反馈ToolStripMenuItem.Text = "意见反馈";
             // 
             // uiPanel_UserInfo
             // 
@@ -150,6 +195,24 @@ namespace DawenShopmanager
             this.uiLabel_UserName.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.uiLabel_UserName.MouseLeave += new System.EventHandler(this.uiPanel_UserInfo_MouseLeave);
             this.uiLabel_UserName.MouseMove += new System.Windows.Forms.MouseEventHandler(this.uiPanel_UserInfo_MouseMove);
+            // 
+            // uiAvatar_UserAvatar
+            // 
+            this.uiAvatar_UserAvatar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.uiAvatar_UserAvatar.BackColor = System.Drawing.Color.Transparent;
+            this.uiAvatar_UserAvatar.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiAvatar_UserAvatar.Icon = Sunny.UI.UIAvatar.UIIcon.Image;
+            this.uiAvatar_UserAvatar.ImageOffset = new System.Drawing.Point(-2, -2);
+            this.uiAvatar_UserAvatar.Location = new System.Drawing.Point(7, 20);
+            this.uiAvatar_UserAvatar.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiAvatar_UserAvatar.Name = "uiAvatar_UserAvatar";
+            this.uiAvatar_UserAvatar.Size = new System.Drawing.Size(60, 60);
+            this.uiAvatar_UserAvatar.Style = Sunny.UI.UIStyle.Custom;
+            this.uiAvatar_UserAvatar.TabIndex = 0;
+            this.uiAvatar_UserAvatar.MouseLeave += new System.EventHandler(this.uiPanel_UserInfo_MouseLeave);
+            this.uiAvatar_UserAvatar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.uiPanel_UserInfo_MouseMove);
             // 
             // uiHeaderButton_Report
             // 
@@ -300,69 +363,6 @@ namespace DawenShopmanager
             this.uiHeaderButton_OA.TabIndex = 23;
             this.uiHeaderButton_OA.Text = "系统 OA";
             this.uiHeaderButton_OA.Click += new System.EventHandler(this.uiHeaderButton_OA_Click);
-            // 
-            // uiAvatar_UserAvatar
-            // 
-            this.uiAvatar_UserAvatar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.uiAvatar_UserAvatar.BackColor = System.Drawing.Color.Transparent;
-            this.uiAvatar_UserAvatar.FillColor = System.Drawing.Color.DimGray;
-            this.uiAvatar_UserAvatar.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.uiAvatar_UserAvatar.Icon = Sunny.UI.UIAvatar.UIIcon.Image;
-            this.uiAvatar_UserAvatar.ImageOffset = new System.Drawing.Point(-2, -2);
-            this.uiAvatar_UserAvatar.Location = new System.Drawing.Point(7, 20);
-            this.uiAvatar_UserAvatar.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiAvatar_UserAvatar.Name = "uiAvatar_UserAvatar";
-            this.uiAvatar_UserAvatar.Size = new System.Drawing.Size(60, 60);
-            this.uiAvatar_UserAvatar.Style = Sunny.UI.UIStyle.Custom;
-            this.uiAvatar_UserAvatar.TabIndex = 0;
-            this.uiAvatar_UserAvatar.MouseLeave += new System.EventHandler(this.uiPanel_UserInfo_MouseLeave);
-            this.uiAvatar_UserAvatar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.uiPanel_UserInfo_MouseMove);
-            // 
-            // 意见反馈ToolStripMenuItem
-            // 
-            this.意见反馈ToolStripMenuItem.Image = global::DawenShopmanager.Properties.Resources.Feedback;
-            this.意见反馈ToolStripMenuItem.Name = "意见反馈ToolStripMenuItem";
-            this.意见反馈ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
-            this.意见反馈ToolStripMenuItem.Text = "意见反馈";
-            // 
-            // 窗口置顶ToolStripMenuItem
-            // 
-            this.窗口置顶ToolStripMenuItem.Image = global::DawenShopmanager.Properties.Resources.nottop;
-            this.窗口置顶ToolStripMenuItem.Name = "窗口置顶ToolStripMenuItem";
-            this.窗口置顶ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
-            this.窗口置顶ToolStripMenuItem.Text = "窗口置顶";
-            this.窗口置顶ToolStripMenuItem.MouseUp += new System.Windows.Forms.MouseEventHandler(this.窗口置顶ToolStripMenuItem_MouseUp);
-            // 
-            // 帮助ToolStripMenuItem
-            // 
-            this.帮助ToolStripMenuItem.Image = global::DawenShopmanager.Properties.Resources.Help;
-            this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
-            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
-            this.帮助ToolStripMenuItem.Text = "帮助";
-            // 
-            // 关于ToolStripMenuItem
-            // 
-            this.关于ToolStripMenuItem.Image = global::DawenShopmanager.Properties.Resources.about;
-            this.关于ToolStripMenuItem.Name = "关于ToolStripMenuItem";
-            this.关于ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
-            this.关于ToolStripMenuItem.Text = "关于";
-            // 
-            // 退出登录ToolStripMenuItem
-            // 
-            this.退出登录ToolStripMenuItem.Image = global::DawenShopmanager.Properties.Resources.signout;
-            this.退出登录ToolStripMenuItem.Name = "退出登录ToolStripMenuItem";
-            this.退出登录ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
-            this.退出登录ToolStripMenuItem.Text = "退出登录";
-            this.退出登录ToolStripMenuItem.MouseUp += new System.Windows.Forms.MouseEventHandler(this.退出登录ToolStripMenuItem_MouseUp);
-            // 
-            // 系统设置ToolStripMenuItem
-            // 
-            this.系统设置ToolStripMenuItem.Image = global::DawenShopmanager.Properties.Resources.set;
-            this.系统设置ToolStripMenuItem.Name = "系统设置ToolStripMenuItem";
-            this.系统设置ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
-            this.系统设置ToolStripMenuItem.Text = "系统设置";
             // 
             // pictureBox1
             // 
